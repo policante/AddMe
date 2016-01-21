@@ -2,7 +2,7 @@
 AddMe is an example of how you can apply an clean architecture to Android with Realm, Dagger 2 and Butter Knife.
 
 # Screenshot
-![Screenshot](https://github.com/policante/AddMe/blob/master/resources/add_name.png)
+![Screenshot](https://github.com/policante/AddMe/blob/master/resources/home_empty.png)
 
 ![Screenshot](https://github.com/policante/AddMe/blob/master/resources/add_name.png)
 
