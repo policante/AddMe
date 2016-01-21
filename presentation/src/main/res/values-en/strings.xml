@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">presentation</string>
+    <string name="loading_elipses">Loading…</string>
+
+    <string name="data_not_found">Data not found</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_confirm">OK</string>
+
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
+
+    <string name="confirm_title_delete">Delete?</string>
+    <string name="confirm_delete">Would you like to delete \"%1$s\"?</string>
+
+    <string name="dialog_warning">Warning</string>
+
+    <string name="required">*Required</string>
+
+</resources>

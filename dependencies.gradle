@@ -1,0 +1,21 @@
+allprojects {
+    ext {
+        dependencies = [
+                androidSupportv7          : 'com.android.support:appcompat-v7:23.1.1',
+                androidSupportDesign      : 'com.android.support:design:23.1.1',
+                androidSupportCardView    : 'com.android.support:cardview-v7:23.1.1',
+                androidTransformer        : 'com.mobandme:android-transformer:1.2',
+                androidTransformerCompiler: 'com.mobandme:android-transformer-compiler:1.2',
+                apacheCommonsLang         : 'org.apache.directory.studio:org.apache.commons.lang:2.6',
+                butterKnife               : 'com.jakewharton:butterknife:7.0.1',
+                dagger                    : 'com.google.dagger:dagger:2.0.1',
+                daggerCompiler            : 'com.google.dagger:dagger-compiler:2.0.1',
+                javaxAnnotation           : 'javax.annotation:jsr250-api:1.0',
+                javaXInject               : 'javax.inject:javax.inject:1',
+                realm                     : 'io.realm:realm-android:0.86.0',
+                rxAndroid                 : 'io.reactivex:rxandroid:1.0.1',
+                rxJava                    : 'io.reactivex:rxjava:1.0.14',
+                swipeToAction             : 'co.dift.ui.swipetoaction:library:1.1'
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">presentation</string>
+
+    <string name="loading_elipses">Carregando…</string>
+    <string name="data_not_found">Nenhum dado encontrado</string>
+
+    <string name="action_save">Salvar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Apagar</string>
+    <string name="action_confirm">OK</string>
+
+    <string name="hint_title">Título</string>
+    <string name="hint_description">Descrição</string>
+
+    <string name="confirm_title_delete">Apagar?</string>
+    <string name="confirm_delete">Deseja apagar o nome \"%1$s\"?</string>
+
+    <string name="dialog_warning">Atenção</string>
+
+    <string name="required">*Obrigatório</string>
+
+</resources>

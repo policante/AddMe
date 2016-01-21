@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <style name="ButtonTheme" parent="Base.Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/icons</item>
+    </style>
+
+    <style name="ButtonTheme.Cancel" parent="Base.Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+</resources>

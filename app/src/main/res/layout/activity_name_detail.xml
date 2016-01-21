@@ -1,0 +1,35 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/activity_coordinator_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/AppTheme.ToolbarTheme"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:fillViewport="true"
+            >
+
+            <FrameLayout
+                android:id="@+id/frame_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </ScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

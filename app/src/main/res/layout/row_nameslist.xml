@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_height">
+
+    <RelativeLayout
+        android:tag="reveal-right"
+        android:background="@color/colorDelete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:tint="@color/icons"
+            android:src="@drawable/ic_delete_white_24dp"/>
+    </RelativeLayout>
+
+    <!-- this view reveals when swipe left -->
+    <RelativeLayout
+        android:tag="reveal-left"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:tint="@color/icons"
+            android:src="@drawable/ic_info_outline_white_24dp"/>
+    </RelativeLayout>
+
+    <!-- this is the item front view -->
+    <RelativeLayout
+        android:tag="front"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="@dimen/item_padding">
+
+        <TextView
+            android:id="@+id/textview_rowname_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <View android:background="@color/colorPrimaryDark"
+          android:layout_width="fill_parent"
+          android:layout_height="0.5dp" />
+
+</RelativeLayout>
+
